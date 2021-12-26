@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adaptative Text</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: sans-serif;
+        }
+
+        #output {
+            white-space: pre;
+            color: #000;
+        }
+
+        .input {
+            font-family: sans-serif;
+            width: 100vw;
+            height: 100vh;
+            resize: none;
+            color: transparent;
+            background: transparent;
+            position: absolute;
+            top: 0;
+            left: 0;
+            border: none;
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+    <textarea class="input" id="input"></textarea>
+    <div id="output"></div>
+    <script src="./adaptativeText.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>

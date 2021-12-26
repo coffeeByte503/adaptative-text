@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#output {
+  white-space: pre;
+}
+
+.input {
+  font-family: sans-serif;
+  width: 100vw;
+  height: 100vh;
+  resize: none;
+  color: transparent;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: none;
+  outline: none;
+}
